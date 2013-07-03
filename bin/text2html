@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 # -*- cperl -*-
 use HTML::FromText;
+# PODNAME:  text2html
+# ABSTRACT: convert plain text to HTML
 
 my %options, @files;
 
@@ -32,9 +34,15 @@ exit 0;
 
 __END__
 
+=pod
+
 =head1 NAME
 
-B<text2html> - Convert plain text to HTML
+text2html - convert plain text to HTML
+
+=head1 VERSION
+
+version 2.06
 
 =head1 SYNOPSIS
 
@@ -76,14 +84,29 @@ The C<text2html> utility exits 0 on success, and >0 if an error occurs.
 
 L<perl(1)>, L<HTML::FromText(3)>.
 
-=head1 AUTHOR
+=head1 AUTHORS
 
-Casey West <F<casey@geeknest.com>>.
+=over 4
 
-=head1 COPYRIGHT
+=item *
 
-  Copyright (c) 2003 Casey West. All rights reserved. This module is
-  free software; you can redistribute it and/or modify it under the same
-  terms as Perl itself.
+Ricardo SIGNES <rjbs@cpan.org>
+
+=item *
+
+Casey West <casey@geeknest.com>
+
+=item *
+
+Gareth Rees <garethr@cre.canon.co.uk>
+
+=back
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2003 by Casey West.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
