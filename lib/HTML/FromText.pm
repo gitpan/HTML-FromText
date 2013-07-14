@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package HTML::FromText;
 {
-  $HTML::FromText::VERSION = '2.06';
+  $HTML::FromText::VERSION = '2.07';
 }
 # ABSTRACT: converts plain text to HTML
 
@@ -429,7 +429,7 @@ HTML::FromText - converts plain text to HTML
 
 =head1 VERSION
 
-version 2.06
+version 2.07
 
 =head1 SYNOPSIS
 
@@ -444,7 +444,7 @@ version 2.06
 
 =head1 DESCRIPTION
 
-C<HTML::FromText> converts plain text to HTML. There are a handfull of
+C<HTML::FromText> converts plain text to HTML. There are a handful of
 options that shape the conversion. There is a utility function,
 C<text2html>, that's exported by default. This function is simply a short-
 cut to the Object Oriented interface described in detail below.
